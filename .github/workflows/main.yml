@@ -1,39 +1,27 @@
-name: CI/CD for Portfolio Website
+name: CI/CD
 
 on:
   push:
     branches:
       - main
-      - master
-      - "feature/*"
-      - "bugfix/*"
-  pull_request:
-    branches:
-      - main
-      - master
       - "feature/*"
       - "bugfix/*"
 
 jobs:
-  basic:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-20.04, ubuntu-22.04, ubuntu-24.04, windows-2022, macos-14]
-    runs-on: ${{ matrix.os }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+  build-and-test:
+    runs-on: ubuntu-latest
 
-      - name: Cypress tests
-        # normally you would write
-        # uses: cypress-io/github-action@v6
-        uses: ./
-        # the parameters below are only necessary
-        # because we are running these examples in a monorepo
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          working-directory: examples/basic
-          # just for full picture after installing Cypress
-          # print information about detected browsers, etc
-          # see https://on.cypress.io/command-line#cypress-info
-          build: npx cypress info
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test -- --watchAll=false
