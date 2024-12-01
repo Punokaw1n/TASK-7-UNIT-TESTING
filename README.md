@@ -2,4 +2,4 @@
 
 # My Project
 
-![Build Status](https://img.shields.io/github/workflow/status/Punokaw1n/TASK7-UNIT-TESTING/CI/CD%20Pipeline/main)
+![Build Status](https:/github/Punokaw1n/TASK7-UNIT-TESTING/actions/workflows/main.yml/badge.svg)
