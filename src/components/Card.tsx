@@ -66,10 +66,10 @@ function ExperienceSection(): JSX.Element {
 
         {/* Experience Cards */}
         <div className="flex flex-wrap justify-center">
-          {experiences.map((exp) => (
-            <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+          {experiences.map((exp, index) => (
+            <div key={index} className="w-full px-4 lg:w-1/2 xl:w-1/3">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                <img src={exp.image} alt={exp.title} className="w-full" />
+                <img alt={exp.title} className="w-full" src={exp.image} />
                 <div className="py-8 px-6">
                   <h3 className="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
                     {exp.title}
@@ -78,9 +78,9 @@ function ExperienceSection(): JSX.Element {
                     {exp.description}
                   </p>
                   <a
+                    className="font-medium text-sm text-white bg-blue-500 py-2 px-4 rounded-lg shadow-md hover:opacity-80 hover:scale-75"
                     href={exp.link}
                     rel="noopener noreferrer"
-                    className="font-medium text-sm text-white bg-blue-500 py-2 px-4 rounded-lg shadow-md hover:opacity-80 hover:scale-75"
                   >
                     Lihat Selengkapnya
                   </a>

@@ -1,4 +1,13 @@
 {
+  "compilerOptions": {
+    "jsx": "react-jsx", // Mengaktifkan dukungan JSX
+    "esModuleInterop": true, // Menghindari masalah import module
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "target": "ESNext"
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

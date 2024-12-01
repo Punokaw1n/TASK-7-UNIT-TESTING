@@ -35,7 +35,7 @@ const AboutMe = () => (
                 target="_blank"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary bg-primary hover:text-white"
               >
-                <img src="assets/github.png" alt="" />
+                <img src="assets/github.png" alt="Github" />
               </a>
               {/* Instagram */}
               <a
@@ -43,7 +43,7 @@ const AboutMe = () => (
                 target="_blank"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white"
               >
-                <img src="assets/instagram.png" alt="" />
+                <img src="assets/instagram.png" alt="Instagram" />
               </a>
               {/* twitter */}
               <a
@@ -51,7 +51,7 @@ const AboutMe = () => (
                 target="_blank"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white"
               >
-                <img src="assets/twitter.png" alt="" />
+                <img src="assets/twitter.png" alt="Twitter" />
               </a>
               {/* linkedin */}
               <a
@@ -59,7 +59,7 @@ const AboutMe = () => (
                 target="_blank"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:text-white"
               >
-                <img src="assets/linkedin.png" alt="" />
+                <img src="assets/linkedin.png" alt="Linkedin" />
               </a>
             </div>
           </div>
