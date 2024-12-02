@@ -1,91 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1733031825176" clover="3.2.0">
-  <project timestamp="1733031825176" name="All files">
-    <metrics statements="56" coveredstatements="56" conditionals="5" coveredconditionals="4" methods="18" coveredmethods="18" elements="79" coveredelements="78" complexity="0" loc="56" ncloc="56" packages="3" files="7" classes="7"/>
-    <package name="src">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="App.tsx" path="C:\PRODUCT-ZILLA\TASK7-UNIT-TESTING\src\App.tsx">
-        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components">
+<coverage generated="1733057633906" clover="3.2.0">
+  <project timestamp="1733057633906" name="All files">
+    <metrics statements="34" coveredstatements="34" conditionals="5" coveredconditionals="4" methods="15" coveredmethods="15" elements="54" coveredelements="53" complexity="0" loc="34" ncloc="34" packages="2" files="5" classes="5"/>
+    <package name="components">
       <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="4" methods="13" coveredmethods="13"/>
       <file name="Card.tsx" path="C:\PRODUCT-ZILLA\TASK7-UNIT-TESTING\src\components\Card.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="47" count="3" type="stmt"/>
-        <line num="70" count="18" type="stmt"/>
-        <line num="97" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="70" count="12" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
       </file>
       <file name="Header.tsx" path="C:\PRODUCT-ZILLA\TASK7-UNIT-TESTING\src\components\Header.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="67" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
       </file>
       <file name="TodoList.tsx" path="C:\PRODUCT-ZILLA\TASK7-UNIT-TESTING\src\components\TodoList.tsx">
         <metrics statements="19" coveredstatements="19" conditionals="5" coveredconditionals="4" methods="10" coveredmethods="10"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="13" type="stmt"/>
-        <line num="12" count="13" type="stmt"/>
-        <line num="14" count="13" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
         <line num="15" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="16" count="3" type="stmt"/>
         <line num="17" count="3" type="stmt"/>
-        <line num="21" count="13" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
-        <line num="25" count="13" type="stmt"/>
+        <line num="25" count="12" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
         <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="33" count="13" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
         <line num="42" count="3" type="stmt"/>
         <line num="55" count="4" type="stmt"/>
         <line num="62" count="1" type="stmt"/>
         <line num="68" count="1" type="stmt"/>
-        <line num="80" count="2" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="src.pages">
-      <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+    <package name="pages">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="AboutMe.tsx" path="C:\PRODUCT-ZILLA\TASK7-UNIT-TESTING\src\pages\AboutMe.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="72" count="2" type="stmt"/>
-      </file>
-      <file name="ContactForm.tsx" path="C:\PRODUCT-ZILLA\TASK7-UNIT-TESTING\src\pages\ContactForm.tsx">
-        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="42" count="3" type="stmt"/>
-        <line num="118" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
       </file>
       <file name="Home.tsx" path="C:\PRODUCT-ZILLA\TASK7-UNIT-TESTING\src\pages\Home.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="45" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
       </file>
     </package>
   </project>
