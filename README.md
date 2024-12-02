@@ -2,7 +2,7 @@
 
 # CI/CD DEPLOY
 
-[![Deploy](https://github.com/Punokaw1n/TASK7-UNIT-TESTING/actions/workflows/main.yml/badge.svg)](https://github.com/Punokaw1n/TASK7-UNIT-TESTING/actions/workflows/main.yml)
+[![Deploy](https://github.com/Punokaw1n/TASK-7-UNIT-TESTING/actions/workflows/main.yml/badge.svg)](https://github.com/Punokaw1n/TASK7-UNIT-TESTING/actions/workflows/main.yml)
 
 # UNIT TESTING
 
